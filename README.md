@@ -1,7 +1,6 @@
-# Supply-Chain-Analytics-Dashboard
-End-to-end Power BI project transforming raw supply chain data into an interactive dashboard for analyzing revenue, logistics performance, and operational risks.
-
 # 📊 Supply Chain Analytics Dashboard
+
+End-to-end Power BI project transforming raw supply chain data into an interactive dashboard for analyzing revenue, logistics performance, and operational risks.
 
 ## 🔗 Live Demo
 👉 [View Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZTNjZGU3YTktNjRkNS00NGVlLWFiMDItNzg2MDY1N2YwYjVmIiwidCI6IjNkZmU5YWI2LTgxYmYtNDkxYy1iNjcwLTAxYzgyNGEwOWUxOSJ9)
@@ -106,8 +105,8 @@ Implemented **Star Schema**:
 
 ### Data Types Optimization
 - Currency → Fixed Decimal  
-- Whole Numbers → performance optimization  
-- Decimal → ratios  
+- Whole Numbers → used for performance optimization  
+- Decimal → applied for ratio-based calculations
 
 ### Geography Mapping
 - standardized 160+ country names  
@@ -151,7 +150,9 @@ DIVIDE(
 
 - Measure branching  
 - Safe division using `DIVIDE()`  
-- Context manipulation with `CALCULATE()`  
+- Context manipulation with `CALCULATE()`
+
+These practices ensure consistent and reliable KPI calculations across the report.
 
 ## 💡 Key Insights
 - 🚨 High late delivery rate (~55%) signals major operational inefficiencies  
@@ -181,7 +182,7 @@ This project demonstrates:
 - ability to turn raw data into actionable insights  
 
 ## 📁 Dataset
-DataCo Supply Chain Dataset (Kaggle) (https://www.kaggle.com/datasets/saicharankomati/dataco-supply-chain-dataset?utm_source)
+Data source: [DataCo Supply Chain Dataset (Kaggle)](https://www.kaggle.com/datasets/saicharankomati/dataco-supply-chain-dataset)
 
 ## 📂 Additional Data
 - `data/country_mapping.csv` – custom mapping table used to standardize country names and assign continents
