@@ -142,6 +142,7 @@ DIVIDE(
     CALCULATE([Order Count], Fact_Orders[Is Late] = 0),
     [Order Count]
 )
+```
 
 ## 🧠 Best Practices Applied
 
