@@ -181,7 +181,7 @@ This project demonstrates:
 - ability to turn raw data into actionable insights  
 
 ## 📁 Dataset
-DataCo Supply Chain Dataset (Kaggle)
+DataCo Supply Chain Dataset (Kaggle) (https://www.kaggle.com/datasets/saicharankomati/dataco-supply-chain-dataset?utm_source)
 
 ## 📂 Additional Data
 - `data/country_mapping.csv` – custom mapping table used to standardize country names and assign continents
