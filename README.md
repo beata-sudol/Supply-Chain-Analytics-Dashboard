@@ -143,10 +143,11 @@ DIVIDE(
     [Order Count]
 )
 
-## 🧠Best practices applied:
-- Measure branching
-- Safe division using `DIVIDE()`
-- Context manipulation with `CALCULATE()`
+## 🧠 Best Practices Applied
+
+- Measure branching  
+- Safe division using `DIVIDE()`  
+- Context manipulation with `CALCULATE()`  
 
 ## 💡 Key Insights
 - 🚨 High late delivery rate (~55%) signals major operational inefficiencies  
