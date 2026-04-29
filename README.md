@@ -114,6 +114,9 @@ Implemented **Star Schema**:
 - created mapping table  
 - ensured correct map visualization  
 
+### Data Filtering
+
+Excluded 2018 data due to incomplete records (only January available), to ensure accurate time-based analysis.
 ---
 
 ## ⚙️ Feature Engineering
